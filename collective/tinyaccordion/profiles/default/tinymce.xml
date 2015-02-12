@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<object>
+ <resourcetypes>
+  <customplugins purge="False">
+    <element value="plomino_accordion|/++resource++collective.tinyaccordion/plomino_accordion/editor_plugin.js"/>
+  </customplugins>
+ </resourcetypes>
+
+ <toolbar>
+  <customtoolbarbuttons purge="False">
+  <toolbar_plomino_tinymce value="plominoaccordion"/>
+  </customtoolbarbuttons>
+ </toolbar>
+</object>
