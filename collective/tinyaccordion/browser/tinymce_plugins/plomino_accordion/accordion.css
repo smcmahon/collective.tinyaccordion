@@ -1,0 +1,30 @@
+/* styles to mark accordion inside editor */
+
+body.mceContentBody h3.plomino-accordion-header,
+body.mceContentBody div.plomino-accordion-content {
+    background-color: rgba(256, 0, 0, 0.2);
+    border: 2px dotted red;
+}
+body.mceContentBody h3.plomino-accordion-header {
+    border-bottom: none;
+}
+body.mceContentBody div.plomino-accordion-content {
+    border-top: none;
+}
+
+#content-core h3.plomino-accordion-header {
+    background-color: #ccc;
+    cursor: pointer;
+    margin: 0.25em 0;
+}
+#content-core h3.plomino-accordion-header:hover {
+    background-color: #aaa;
+}
+#content-core h3.plomino-accordion-header.expanded > a:before {
+    content: "–";
+    padding: 0 0.5em;
+}
+#content-core h3.plomino-accordion-header.collapsed > a:before {
+    content: " + ";
+    padding: 0 0.5em;
+}

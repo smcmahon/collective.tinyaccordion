@@ -17,7 +17,7 @@
 
  <javascript
     id="++resource++collective.tinyaccordion/plomino_accordion/accordion.js"
-    cacheable="False" compression="safe" cookable="False"
+    cacheable="True" compression="safe" cookable="True"
     enabled="True" expression=""  inline="False" />
 
 </object>
