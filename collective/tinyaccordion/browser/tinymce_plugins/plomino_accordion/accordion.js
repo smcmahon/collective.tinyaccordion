@@ -12,6 +12,7 @@ jQuery(function ($) {
         jqt.addClass(expand_css);
 
         jqt.click(function () {
+			event.preventDefault();
             var jqt = $(this),
                 body = jqt.next('div.plomino-accordion-content');
             if (jqt.hasClass('expanded')) {
@@ -20,6 +21,7 @@ jQuery(function ($) {
             } else {
                 jqt.removeClass('collapsed').addClass('expanded');
                 body.removeClass('collapsed').addClass('expanded').slideDown();
+		
             }
         });
     });
