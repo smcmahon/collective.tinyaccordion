@@ -11,7 +11,8 @@ jQuery(function ($) {
         }
         jqt.addClass(expand_css);
 
-        jqt.click(function () {
+        jqt.click(function (event) {
+			event.preventDefault();
             var jqt = $(this),
                 body = jqt.next('div.plomino-accordion-content');
             if (jqt.hasClass('expanded')) {
