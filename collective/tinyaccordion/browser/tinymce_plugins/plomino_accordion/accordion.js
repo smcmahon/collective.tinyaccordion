@@ -21,7 +21,6 @@ jQuery(function ($) {
             } else {
                 jqt.removeClass('collapsed').addClass('expanded');
                 body.removeClass('collapsed').addClass('expanded').slideDown();
-		
             }
         });
     });
